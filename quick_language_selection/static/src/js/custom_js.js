@@ -24,7 +24,7 @@ CustomJs.include({
                 } else {
                     a = '';
                 }
-                lang_list += '<a href="#" data-lang-menu="lang" data-lang-id="' + lang['code'] + '"><img class="flag" src="quick_language_selection/static/src/img/flags/' + lang['code'] + '.png"/>' + ' ' + lang['name'] + ' ' + a  +'</a><br/>';
+                lang_list += '<a href="#" class="dropdown-item" data-lang-menu="lang" data-lang-id="' + lang['code'] + '"><img class="flag" src="quick_language_selection/static/src/img/flags/' + lang['code'] + '.png"/>' + ' ' + lang['name'] + ' ' + a  +'</a>';
             });
             self.$('switch-lang').replaceWith(lang_list);
         })

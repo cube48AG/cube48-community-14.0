@@ -2,7 +2,7 @@
 <templates id="template" xml:space="preserve">
     <t t-extend="UserMenu.Actions">
 	    <t t-jquery=".dropdown-divider" t-operation="before">
-	    	<div role="separator" class="dropdown-divider"/>
+	    	<!-- <div role="separator" class="dropdown-divider"/> -->
 	    	<switch-lang/>
 	    </t>
 	</t>
